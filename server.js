@@ -53,7 +53,7 @@ const burgermenu = [
     id: 4,
     name: "Beef-Burger",
     unitPrice: 95,
-    imageUrl: "https://foods-images-3.onrender.com/burger/beefbur-4.jpg",
+    imageUrl: "https://foods-images-3.onrender.com/burger/beefbur-5.jpg",
     ingredients: [
       "Beef Patties Pre-made ",
       "Whole wheat buns",
