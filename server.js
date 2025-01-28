@@ -177,9 +177,9 @@ const burgermenu = [
   },
   {
     id: 13,
-    name: "https://foods-images-3.onrender.com/burger/breakfast-3.jpg",
+    name: "Breakfast-Burger",
     unitPrice: 80,
-    imageUrl: "burger/breakfast-3.jpg",
+    imageUrl: "https://foods-images-3.onrender.com/burger/breakfast-3.jpg",
     ingredients: [
       "Beef Patty",
       "Classic hamburger buns",
