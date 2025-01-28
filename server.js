@@ -783,7 +783,7 @@ const tacobarmenu = [
   {
     id: 5,
     name: "Beeftacobar",
-    imageUrl: "https://foods-images-3.onrender.com/tacobar/beeftytacobar-2.jpg",
+    imageUrl: "https://foods-images-3.onrender.com/tacobar/beefytacobar-2.jpg",
     ingredients: [
       "Soft flour tortillas",
       "Shredded cheddar",
