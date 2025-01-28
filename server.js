@@ -933,6 +933,58 @@ app.get("/api/tacobarmenu", (req, res) => {
   }
 });
 
+// Generate a random order ID
+function generateRandomId() {
+  return "ORD" + Math.random().toString(36).substring(2, 7).toUpperCase();
+}
+
+let orders = [];
+
+// Create a new order
+app.post("/api/order", (req, res) => {
+  const cart = req.body.cart || [];
+  const orderPrice = cart.reduce(
+    (total, item) => total + item.unitPrice * item.quantity,
+    0
+  );
+
+  const newOrder = {
+    id: generateRandomId(),
+    customer: req.body.customer,
+    status: req.body.status || "pending",
+    cart: cart,
+    orderPrice: orderPrice,
+  };
+
+  orders.push(newOrder);
+  res.status(201).json({ status: "success", data: newOrder });
+});
+
+// Get order by ID
+app.get("/api/order/:id", (req, res) => {
+  const orderId = req.params.id;
+  const order = orders.find((o) => o.id === orderId);
+  if (!order) {
+    return res
+      .status(404)
+      .json({ status: "fail", message: `Couldn't find order #${orderId}` });
+  }
+  res.status(200).json({ status: "success", data: order });
+});
+
+// Update order by ID
+app.patch("/api/order/:id", (req, res) => {
+  const orderId = req.params.id;
+  const orderIndex = orders.findIndex((o) => o.id === orderId);
+
+  if (orderIndex === -1) {
+    return res.status(404).json({ status: "fail", message: `Order not found` });
+  }
+
+  orders[orderIndex] = { ...orders[orderIndex], ...req.body };
+  res.status(200).json({ status: "success", data: orders[orderIndex] });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
