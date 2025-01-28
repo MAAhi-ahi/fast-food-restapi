@@ -177,7 +177,7 @@ const burgermenu = [
   },
   {
     id: 13,
-    name: "https://foods-images-3.onrender.com/Breakfast-Burger",
+    name: "https://foods-images-3.onrender.com/burger/breakfast-3.jpg",
     unitPrice: 80,
     imageUrl: "burger/breakfast-3.jpg",
     ingredients: [
@@ -194,7 +194,13 @@ const burgermenu = [
     name: "Breakfast-Burger",
     unitPrice: 80,
     imageUrl: "https://foods-images-3.onrender.com/burger/breakfast-4.jpg",
-    ingredients: ["", "", "", "", ""],
+    ingredients: [
+      "Beef Patty",
+      "Classic hamburger buns",
+      "Cheddar",
+      "Sausage Patty",
+      "Sliced jalapeños (for a spicy kick)",
+    ],
     soldOut: false,
   },
   {
