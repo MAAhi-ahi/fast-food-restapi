@@ -399,7 +399,7 @@ const pizzamenu = [
   {
     id: 1,
     name: "Pizzapizza-Brazilian",
-    unitPrice: 12,
+    unitPrice: 120,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzabrazilian-1.jpg",
     ingredients: ["tomato", "mozzarella", "basil"],
     soldOut: false,
@@ -407,7 +407,7 @@ const pizzamenu = [
   {
     id: 2,
     name: "Pizzapizza-Brazilian",
-    unitPrice: 14,
+    unitPrice: 140,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzabrazilian-2.jpg",
     ingredients: [
       "tomato",
@@ -422,7 +422,7 @@ const pizzamenu = [
   {
     id: 3,
     name: "Pizza-Breakfast",
-    unitPrice: 15,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzabreakfast-1.jpg",
     ingredients: ["tomato", "mozzarella", "prosciutto"],
     soldOut: false,
@@ -430,7 +430,7 @@ const pizzamenu = [
   {
     id: 4,
     name: "Pizza-Breakfast",
-    unitPrice: 16,
+    unitPrice: 145,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzabreakfast-2.jpg",
     ingredients: ["tomato", "mozzarella", "prosciutto", "arugula"],
     soldOut: false,
@@ -438,7 +438,7 @@ const pizzamenu = [
   {
     id: 5,
     name: "Pizza-Breakfast",
-    unitPrice: 16,
+    unitPrice: 160,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzabreakfast-3.jpg",
     ingredients: [
       "tomato",
@@ -452,7 +452,7 @@ const pizzamenu = [
   {
     id: 6,
     name: "Pizza-Brocoli",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzabrocoli.jpg",
     ingredients: [
       "tomato",
@@ -466,7 +466,7 @@ const pizzamenu = [
   {
     id: 7,
     name: "Pizza-Margherita",
-    unitPrice: 12,
+    unitPrice: 120,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzamargherita-1.jpg",
     ingredients: ["tomato", "mozzarella", "basil"],
     soldOut: false,
@@ -474,7 +474,7 @@ const pizzamenu = [
   {
     id: 8,
     name: "Pizza-Margherita",
-    unitPrice: 14,
+    unitPrice: 140,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzamargherita-2.jpg",
     ingredients: ["tomato", "mozzarella", "ham", "mushrooms", "artichoke"],
     soldOut: true,
@@ -482,7 +482,7 @@ const pizzamenu = [
   {
     id: 9,
     name: "pizzapizzamargherita-1.jpg",
-    unitPrice: 15,
+    unitPrice: 150,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzamargherita-2.jpg",
     ingredients: ["tomato", "mozzarella", "prosciutto"],
     soldOut: false,
@@ -490,7 +490,7 @@ const pizzamenu = [
   {
     id: 10,
     name: "Pizza-Marinara",
-    unitPrice: 16,
+    unitPrice: 160,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzamarinara-1.jpg",
     ingredients: ["tomato", "mozzarella", "prosciutto", "arugula"],
     soldOut: false,
@@ -498,7 +498,7 @@ const pizzamenu = [
   {
     id: 11,
     name: "Pizza-Marinara",
-    unitPrice: 16,
+    unitPrice: 160,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzamarinara-2.jpg",
     ingredients: ["tomato", "mozzarella", "spicy salami", "chili flakes"],
     soldOut: false,
@@ -506,7 +506,7 @@ const pizzamenu = [
   {
     id: 12,
     name: "Pizza-Marinara",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzamarinara-3.jpg",
     ingredients: [
       "tomato",
@@ -521,7 +521,7 @@ const pizzamenu = [
   {
     id: 13,
     name: "Pizza-Newyork",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzanewyork-1.jpg",
     ingredients: [
       "tomato",
@@ -535,7 +535,7 @@ const pizzamenu = [
   {
     id: 14,
     name: "Pizza-Newyork",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzanewyork-2.jpg",
     ingredients: [
       "tomato",
@@ -549,7 +549,7 @@ const pizzamenu = [
   {
     id: 15,
     name: "Pizza-Newyork",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzanewyork-3.jpg",
     ingredients: [
       "tomato",
@@ -563,7 +563,7 @@ const pizzamenu = [
   {
     id: 16,
     name: "Pizza-Oliva",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaoliva-1.jpg",
     ingredients: [
       "tomato",
@@ -577,7 +577,7 @@ const pizzamenu = [
   {
     id: 17,
     name: "Pizza-Oliva",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaoliva-2.jpg",
     ingredients: [
       "tomato",
@@ -591,7 +591,7 @@ const pizzamenu = [
   {
     id: 18,
     name: "Pizza-Oliva",
-    unitPrice: 13,
+    unitPrice: 130,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaoliva-3.jpg",
     ingredients: [
       "tomato",
@@ -605,7 +605,7 @@ const pizzamenu = [
   {
     id: 19,
     name: "Pizza-Quattro",
-    unitPrice: 13,
+    unitPrice: 140,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaquattro-1.jpg",
     ingredients: [
       "tomato",
@@ -619,7 +619,7 @@ const pizzamenu = [
   {
     id: 20,
     name: "Pizza-Quattro",
-    unitPrice: 13,
+    unitPrice: 140,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaquattro-2.jpg",
     ingredients: [
       "tomato",
@@ -633,7 +633,7 @@ const pizzamenu = [
   {
     id: 21,
     name: "Pizza-Quattro",
-    unitPrice: 13,
+    unitPrice: 140,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaquattro-3.jpg",
     ingredients: [
       "tomato",
@@ -647,7 +647,7 @@ const pizzamenu = [
   {
     id: 22,
     name: "Pizza-Spinach",
-    unitPrice: 13,
+    unitPrice: 135,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaspinach.jpg",
     ingredients: [
       "tomato",
@@ -661,7 +661,7 @@ const pizzamenu = [
   {
     id: 23,
     name: "Pizza-Turkish",
-    unitPrice: 13,
+    unitPrice: 135,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaturkish-1.jpg",
     ingredients: [
       "tomato",
@@ -675,7 +675,7 @@ const pizzamenu = [
   {
     id: 24,
     name: "Pizza-Turkish",
-    unitPrice: 13,
+    unitPrice: 135,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzaturkish-2.jpg",
     ingredients: [
       "tomato",
@@ -689,7 +689,7 @@ const pizzamenu = [
   {
     id: 25,
     name: "Pizza-Vegan",
-    unitPrice: 13,
+    unitPrice: 135,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzavegan-1.jpg",
     ingredients: [
       "tomato",
@@ -703,7 +703,7 @@ const pizzamenu = [
   {
     id: 26,
     name: "Pizza-Vegan",
-    unitPrice: 13,
+    unitPrice: 135,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzavegan-2.jpg",
     ingredients: [
       "tomato",
@@ -717,7 +717,7 @@ const pizzamenu = [
   {
     id: 27,
     name: "Pizza-Vegan",
-    unitPrice: 13,
+    unitPrice: 135,
     imageUrl: "https://foods-images-3.onrender.com/pizza/pizzavegan-3.jpg",
     ingredients: [
       "tomato",
@@ -733,6 +733,7 @@ const tacobarmenu = [
   {
     id: 1,
     name: "Bacontacobar",
+    unitPrice: 75,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/bacontacobar.jpg",
     ingredients: [
       "bacon",
@@ -745,6 +746,7 @@ const tacobarmenu = [
   {
     id: 2,
     name: "BBQ Tofu",
+    unitPrice: 65,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/bbqtofutacos.jpg",
     ingredients: [
       "Soft flour tortillas",
@@ -758,6 +760,7 @@ const tacobarmenu = [
   {
     id: 3,
     name: "BBQ Tofu",
+    unitPrice: 65,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/bbqtacobar.jpg",
     ingredients: [
       "Grilled pineapple chunks",
@@ -770,6 +773,7 @@ const tacobarmenu = [
   {
     id: 4,
     name: "Beeftacobar",
+    unitPrice: 65,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/beeftacobar-1.jpg",
     ingredients: [
       "Seasoned Ground Beef",
@@ -783,6 +787,7 @@ const tacobarmenu = [
   {
     id: 5,
     name: "Beeftacobar",
+    unitPrice: 65,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/beefytacobar-2.jpg",
     ingredients: [
       "Soft flour tortillas",
@@ -795,6 +800,7 @@ const tacobarmenu = [
   {
     id: 6,
     name: "Breakfast Tacobar",
+    unitPrice: 55,
     imageUrl:
       "https://foods-images-3.onrender.com/tacobar/breakfasttacobar.jpg",
     ingredients: [
@@ -809,6 +815,7 @@ const tacobarmenu = [
   {
     id: 7,
     name: "Chicken Tacobar",
+    unitPrice: 65,
     imageUrl:
       "https://foods-images-3.onrender.com/tacobar/chickentacobar-1.jpg",
     ingredients: [
@@ -822,6 +829,7 @@ const tacobarmenu = [
   {
     id: 8,
     name: "Chicken Tacobar",
+    unitPrice: 65,
     imageUrl:
       "https://foods-images-3.onrender.com/tacobar/chickentacobar-2.jpg",
     ingredients: [
@@ -835,6 +843,7 @@ const tacobarmenu = [
   {
     id: 9,
     name: "Chicken Tacobar",
+    unitPrice: 65,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/chickentacobar.jpg",
     ingredients: [
       "Chicken Tinga (shredded chicken in a smoky tomato-chipotle sauce)",
@@ -847,6 +856,7 @@ const tacobarmenu = [
   {
     id: 10,
     name: "Chicken Tacobar",
+    unitPrice: 65,
     imageUrl:
       "https://foods-images-3.onrender.com/tacobar/chickentacobar-4.jpg",
     ingredients: [
@@ -860,6 +870,7 @@ const tacobarmenu = [
   {
     id: 11,
     name: "Fish Tacobar",
+    unitPrice: 65,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/fishtacobar-1.jpg",
     ingredients: [
       "Grilled, baked, or fried fish",
@@ -872,6 +883,7 @@ const tacobarmenu = [
   {
     id: 12,
     name: "Fish Tacobar",
+    unitPrice: 65,
     imageUrl: "https://foods-images-3.onrender.com/tacobar/fishtacobar-2.jpg",
     ingredients: [
       "White fish (tilapia, cod, halibut, or mahi-mahi) seasoned with lime, garlic, cumin, chili powder, or a taco seasoning blend",
@@ -884,6 +896,7 @@ const tacobarmenu = [
   {
     id: 13,
     name: "Vegetables Tacobar",
+    unitPrice: 50,
     imageUrl:
       "https://foods-images-3.onrender.com/tacobar/vegetablestacobar.jpg",
     ingredients: [
