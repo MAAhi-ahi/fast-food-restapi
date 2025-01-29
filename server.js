@@ -948,6 +948,9 @@ app.post("/api/order", (req, res) => {
     0
   );
 
+  const estimatedDelivery = new Date();
+  estimatedDelivery.setMinutes(estimatedDelivery.getMinutes() + 30); // 👈 Add 30 minutes
+
   const newOrder = {
     id: generateRandomId(),
     customer: req.body.customer,
