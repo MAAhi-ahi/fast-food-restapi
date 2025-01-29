@@ -954,6 +954,7 @@ app.post("/api/order", (req, res) => {
     status: req.body.status || "pending",
     cart: cart,
     orderPrice: orderPrice,
+    estimatedDelivery: estimatedDelivery.toISOString(),
   };
 
   orders.push(newOrder);
