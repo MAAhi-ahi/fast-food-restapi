@@ -953,6 +953,8 @@ app.post("/api/order", (req, res) => {
 
   const newOrder = {
     id: generateRandomId(),
+    address: req.body.address,
+    phone: req.body.phone,
     customer: req.body.customer,
     status: req.body.status || "pending",
     cart: cart,
