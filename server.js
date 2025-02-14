@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5005;
 
 app.use(cors());
 app.use(express.json());
@@ -942,6 +942,7 @@ let orders = [];
 
 // Create a new order
 app.post("/api/order", (req, res) => {
+  console.log("Received Data:", req.body);
   const cart = req.body.cart || [];
   const orderPrice = cart.reduce(
     (total, item) => total + item.unitPrice * item.quantity,
